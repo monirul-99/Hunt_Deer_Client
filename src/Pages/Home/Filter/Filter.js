@@ -1,6 +1,7 @@
 import React from "react";
 import { IconContext } from "react-icons";
 import { IoCaretDownOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Filter = () => {
   return (
@@ -231,9 +232,11 @@ const Filter = () => {
               </li>
             </ul>
           </aside>
-          <aside className="border-[1px] border-gray-500 rounded-full px-5 py-1 text-sm">
-            <h2>Reset</h2>
-          </aside>
+          <Link to="/about">
+            <aside className="border-[1px] border-gray-500 rounded-full px-5 py-1 text-sm">
+              <h2>Reset</h2>
+            </aside>
+          </Link>
         </div>
       </section>
     </>
