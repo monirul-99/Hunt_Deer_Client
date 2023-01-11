@@ -85,6 +85,25 @@ const About = () => {
           ignobly allegedly more when oh arrogantly vehement irresistibly fussy.
         </p>
       </div>
+
+      <div className="relative">
+        <img
+          src="https://apusthemes.com/wp-demo/superio-new/wp-content/uploads/2021/03/bg_shape.jpg"
+          alt=""
+        />
+
+        <div className="absolute top-0">
+          <h2>Your Dream Jobs Are Waiting</h2>
+          <p>
+            Over 1 million interactions, 50,000 success stories Make yours now.
+          </p>
+
+          <div>
+            <button>Search Job</button>
+            <button>Apply Job Now</button>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
